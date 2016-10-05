@@ -1,7 +1,7 @@
 # Laravel route view helper
 
 [![Build Status](https://travis-ci.org/brayniverse/laravel-route-view-helper.svg)](https://travis-ci.org/brayniverse/laravel-route-view-helper)
-[![Total Downloads](https://poser.pugx.org/brayniverse/laravel-route-view-helper/d/total.svg)](https://packagist.org/brayniverse/laravel-route-view-helper)
+[![Total Downloads](https://poser.pugx.org/brayniverse/laravel-route-view-helper/d/total.svg)](https://packagist.org/packages/brayniverse/laravel-route-view-helper)
 [![Latest Stable Version](https://poser.pugx.org/brayniverse/laravel-route-view-helper/v/stable.svg)](https://packagist.org/packages/brayniverse/laravel-route-view-helper)
 [![Latest Unstable Version](https://poser.pugx.org/brayniverse/laravel-route-view-helper/v/unstable.svg)](https://packagist.org/packages/brayniverse/laravel-route-view-helper)
 [![License](https://poser.pugx.org/brayniverse/laravel-route-view-helper/license.svg)](https://packagist.org/packages/brayniverse/laravel-route-view-helper)
