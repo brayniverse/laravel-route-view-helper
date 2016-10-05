@@ -1,0 +1,42 @@
+{
+    "name": "brayniverse/laravel-route-view-helper",
+    "description": "Syntactic sugar for those occasions when you only want to display a basic view.",
+    "keywords": [
+        "laravel",
+        "routing",
+        "view",
+        "helper"
+    ],
+    "homepage": "https://github.com/brayniverse/laravel-route-view-helper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christopher L Bray",
+            "email": "chris@brayniverse.com",
+            "homepage": "http://brayniverse.com"
+        }
+    ],
+    "require": {
+        "php": "^5.5.9 || ^7.0",
+        "illuminate/support": "5.1.* || 5.2.* || 5.3.*",
+        "illuminate/http": "5.1.* || 5.2.* || 5.3.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8 || ^5.0",
+        "orchestra/testbench": "~3.0",
+        "mockery/mockery": "^0.9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Brayniverse\\LaravelRouteViewHelper\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit tests"
+    }
+}
