@@ -9,7 +9,7 @@ class ServiceProvider extends \Illuminate\Support\ServiceProvider
     public function register()
     {
         Route::macro('view', function ($url, $view) {
-            Route::get($url, '\Brayniverse\LaravelRouteViewHelper\ViewController@handle')
+            return Route::get($url, '\Brayniverse\LaravelRouteViewHelper\ViewController@handle')
                 ->defaults('view', $view);
         });
     }
