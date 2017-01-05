@@ -1,7 +1,5 @@
 <?php
 
-namespace Brayniverse\LaravelRouteViewHelper\Tests;
-
 class TestCase extends \Orchestra\Testbench\TestCase
 {
     protected function getPackageProviders($app)

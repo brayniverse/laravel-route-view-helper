@@ -1,9 +1,5 @@
 <?php
 
-namespace Brayniverse\LaravelRouteViewHelper\Tests;
-
-use Illuminate\Support\Facades\Route;
-
 class ViewControllerTest extends TestCase
 {
     public function test_view_rendered()
