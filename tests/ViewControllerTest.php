@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace Brayniverse\LaravelRouteViewHelper\Tests;
 
 use Illuminate\Support\Facades\Route;
 
