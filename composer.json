@@ -31,11 +31,6 @@
             "Brayniverse\\LaravelRouteViewHelper\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Brayniverse\\LaravelRouteViewHelper\\Tests\\": "tests/"
-        }
-    },
     "scripts": {
         "test": "vendor/bin/phpunit tests"
     }
