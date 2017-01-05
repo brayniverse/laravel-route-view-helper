@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests;
+namespace Brayniverse\LaravelRouteViewHelper\Tests;
 
 class TestCase extends \Orchestra\Testbench\TestCase
 {
