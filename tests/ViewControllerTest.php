@@ -6,7 +6,15 @@ class ViewControllerTest extends TestCase
     {
         Route::view('/contact', 'contact');
 
-        $this->get('/contact')
-            ->see('Contact us');
+        $response = $this->get('/contact');
+
+        // In order to support versions of Laravel below v5.4
+        // you need to check if the `assertSee` method exists
+        // as `see` was renamed to `assertSee` in the update.
+        if (method_exists($response, 'assertSee')) {
+            $response->assertSee('Contact us');
+        } else {
+            $response->see('Contact us');
+        }
     }
 }
