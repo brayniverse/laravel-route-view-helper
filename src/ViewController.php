@@ -2,30 +2,20 @@
 
 namespace Brayniverse\LaravelRouteViewHelper;
 
+use Illuminate\Http\Request;
+use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\View;
 
-class ViewController
+class ViewController extends Controller
 {
     /**
      * Handle the view rendering.
      *
-     * @param  string  $view
+     * @param  Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function handle($view)
+    public function handle(Request $request)
     {
-        return View::make($view);
-    }
-
-    /**
-     * Extract the view name from the route and call the handler.
-     *
-     * @param  string  $method
-     * @param  array  $parameters
-     * @return \Illuminate\Http\Response
-     */
-    public function callAction($method, $parameters)
-    {
-        return $this->handle($parameters['view']);
+        return View::make($request->route('view'));
     }
 }
